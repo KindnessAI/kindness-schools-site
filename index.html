@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kindness Schools</title>
+<meta name="description" content="Kindness Schools - the kindness companion for K-12 school communities. A Kindness Grid product.">
+<meta name="robots" content="noindex, nofollow">
+<style>
+  :root { --ink:#1a1d21; --ink-soft:#4b5563; --ink-faint:#8a919c; --bg:#f7f6f3; --card:#ffffff; --line:#e5e2dc; --accent:#5b8dd9; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--ink); line-height:1.5; }
+  .wrap { max-width:1060px; margin:0 auto; padding:0 24px; }
+  .wrap.narrow { max-width:780px; }
+  .draftbar { background:#1a1d21; color:#f7f6f3; font-size:12.5px; letter-spacing:.04em; text-align:center; padding:7px 12px; }
+  header { padding:20px 0; border-bottom:1px solid var(--line); }
+  header .wrap { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:17px; color:var(--ink); text-decoration:none; }
+  .dots { display:inline-grid; grid-template-columns:1fr 1fr; gap:2px; width:18px; height:18px; }
+  .dots span { border-radius:50%; display:block; }
+  .d1{background:#e8a33d}.d2{background:#3f8f6b}.d3{background:#5b8dd9}.d4{background:#d95b6c}
+  nav a { color:var(--ink-soft); text-decoration:none; font-size:14px; margin-left:22px; }
+  nav a:hover { color:var(--ink); }
+  nav a.cta { color:var(--accent); font-weight:600; }
+  .hero { padding:84px 0 64px; }
+  .kicker { font-size:13px; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); font-weight:600; margin-bottom:18px; }
+  .hero h1 { font-size:46px; line-height:1.12; letter-spacing:-0.02em; max-width:16em; margin-bottom:20px; }
+  .hero p.lede { font-size:19px; color:var(--ink-soft); max-width:34em; margin-bottom:32px; }
+  .btnrow { display:flex; gap:14px; flex-wrap:wrap; }
+  .btn { display:inline-block; padding:12px 22px; border-radius:8px; font-size:15px; font-weight:600; text-decoration:none; }
+  .btn.primary { background:var(--ink); color:#fff; }
+  .btn.ghost { border:1px solid var(--line); color:var(--ink); background:var(--card); }
+  section { padding:64px 0; border-top:1px solid var(--line); }
+  h2 { font-size:30px; letter-spacing:-0.01em; margin-bottom:14px; }
+  h2 + p.sub { color:var(--ink-soft); font-size:16.5px; max-width:40em; margin-bottom:36px; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(290px,1fr)); gap:20px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:28px; }
+  .card .layer { font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-faint); font-weight:600; margin-bottom:10px; }
+  .card h3 { font-size:20px; margin-bottom:10px; }
+  .card p { color:var(--ink-soft); font-size:15px; margin-bottom:10px; }
+  .card p:last-child { margin-bottom:0; }
+  .inst li { margin-bottom:14px; color:var(--ink-soft); font-size:15.5px; }
+  .inst { list-style:none; }
+  .inst li::before { content:""; display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--accent); margin-right:12px; vertical-align:1px; }
+  .ctaend { text-align:center; padding:72px 0; }
+  .ctaend h2 { margin-bottom:22px; }
+  footer { border-top:1px solid var(--line); padding:28px 0 40px; color:var(--ink-faint); font-size:13.5px; }
+  footer a { color:var(--ink-soft); }
+  @media (max-width:640px){ .hero h1{font-size:32px} }
+</style>
+</head>
+<body>
+<div class="draftbar">DRAFT - staged for review only. Not public. Noindex.</div>
+<header>
+  <div class="wrap">
+    <a class="brand" href="#top"><span class="dots"><span class="d1"></span><span class="d2"></span><span class="d3"></span><span class="d4"></span></span>Kindness Schools</a>
+    <nav>
+      <a href="#what">What it is</a>
+      <a href="#how">How it works</a>
+      <a href="#schools">For schools</a>
+      <a class="cta" href="#pilot">Pilot</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap narrow">
+    <p class="kicker">A Kindness Grid product</p>
+    <h1>The kindness companion for K-12 school communities.</h1>
+    <p class="lede">Kindness Schools gives every student, teacher, and parent one daily practice: notice someone, do something small, and watch it add up across the whole school.</p>
+    <div class="btnrow">
+      <a class="btn primary" href="#pilot">Bring it to your school</a>
+      <a class="btn ghost" href="#how">See how it works</a>
+    </div>
+  </div>
+</section>
+
+<section id="what">
+  <div class="wrap narrow">
+    <h2>What it is</h2>
+    <p class="sub">A school runs on thousands of small interactions a day. Most of the kind ones go unnoticed, and most of the unkind ones get all the attention. Kindness Schools flips that ratio on purpose.</p>
+    <div class="cards">
+      <div class="card">
+        <p class="layer">Students</p>
+        <h3>A daily kindness streak</h3>
+        <p>One small suggested act a day - sit with someone new at lunch, thank a custodian by name, help a classmate study. Students log what they did and keep a streak, like a reading log for being decent to each other.</p>
+      </div>
+      <div class="card">
+        <p class="layer">Teachers</p>
+        <h3>Two minutes, not a curriculum</h3>
+        <p>A morning prompt for the classroom and a Friday wrap-up the teacher can read in two minutes. No lesson planning, no grading - the product does the lifting.</p>
+      </div>
+      <div class="card">
+        <p class="layer">Families</p>
+        <h3>The conversation at home</h3>
+        <p>Parents see what their child did this week and get one suggested family act for the weekend. Kindness stops being a school assembly topic and becomes a dinner-table one.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap narrow">
+    <h2>How it works</h2>
+    <p class="sub">Three loops, all running on the same engine.</p>
+    <div class="cards">
+      <div class="card">
+        <p class="layer">Daily</p>
+        <h3>Notice, act, log</h3>
+        <p>Each morning every student gets one age-appropriate act. Younger kids draw or tap what they did; older students write a line. Thirty seconds, done during homeroom.</p>
+      </div>
+      <div class="card">
+        <p class="layer">Weekly</p>
+        <h3>Classrooms climb together</h3>
+        <p>Acts roll up to the classroom, not just the child. A fifth-grade class can see it out-kind the sixth graders this week - cooperation first, friendly competition second.</p>
+      </div>
+      <div class="card">
+        <p class="layer">Termly</p>
+        <h3>The school sees its culture</h3>
+        <p>Acts by theme - inclusion, gratitude, helping, repair after conflict. Principals finally get a number for the thing assemblies talk about, and can see which grades need a nudge.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="schools">
+  <div class="wrap narrow">
+    <h2>What the school sees</h2>
+    <p class="sub">A dashboard built for a principal with ten minutes between meetings.</p>
+    <ul class="inst">
+      <li>Participation by grade and classroom - who is in the habit, who needs a quieter on-ramp.</li>
+      <li>Themes of the week - what kinds of kindness are actually happening, in the students' own words.</li>
+      <li>Repair moments - conflicts that ended with a logged make-up act, visible without naming children.</li>
+      <li>Family reach - how many homes saw a weekly summary, the school's bridge to parents.</li>
+      <li>Safeguarding first: no public child profiles, no rankings of individual children, teacher review on anything flagged.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="ctaend" id="pilot">
+  <div class="wrap narrow">
+    <h2>See it working.</h2>
+    <div class="btnrow" style="justify-content:center">
+      <a class="btn primary" href="mailto:info@kindnessgrid.com?subject=Kindness%20Schools%20pilot">Start a school pilot</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap narrow">
+    <p>Kindness Schools is a Kindness Grid product. <a href="https://kindnessgrid.com">kindnessgrid.com</a></p>
+  </div>
+</footer>
+</body>
+</html>
+
